@@ -1,0 +1,8 @@
+steps:
+- task: AzureRmWebAppDeployment@4
+  displayName: 'DEV - Deploy Azure App Service'
+  inputs:
+    azureSubscription: '$(Parameters.ConnectedServiceName)'
+    appType: '$(Parameters.WebAppKind)'
+    WebAppName: '$(Parameters.WebAppName)'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/_EC-ASP.NET Core-CI/drop/s.zip'
