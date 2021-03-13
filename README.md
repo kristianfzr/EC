@@ -1,2 +1,1 @@
-[![Build Status](https://kristiakanchev.visualstudio.com/EC/_apis/build/status/EC-ASP.NET%20Core-CI?branchName=master)](https://kristiakanchev.visualstudio.com/EC/_build/latest?definitionId=4&branchName=master)
-# Sample ASP.NET Core application for Azure Pipelines docs
+# Sample ASP.NET Core application for Azure Pipelines.
